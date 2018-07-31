@@ -2,9 +2,7 @@ import { Injectable } from '@angular/core';
 import { BehaviorSubject } from 'rxjs/internal/BehaviorSubject'; 
 ;
 
-@Injectable({
- 
-})
+@Injectable()
 export class DataService {
 
   private goals = new BehaviorSubject<any>(['The initial goal', 'Another silly life goal']);
